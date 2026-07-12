@@ -55,7 +55,7 @@ class _ChessBoardScreenState extends State<ChessBoardScreen> {
                 color: squareColor,
                 child: Center(
                   child: Text(
-                    '${row},${col}', 
+                    '$row,$col', 
                     style: TextStyle(
                       color: isLightSquare ? Colors.black26 : Colors.white24,
                       fontSize: 10,
