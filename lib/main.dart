@@ -140,7 +140,7 @@ class _ChessBoardScreenState extends State<ChessBoardScreen> {
 
                   // කෑල්ලක් select කළාම ඒ කොටුව Highlight (කොළ පාට) කරන්න
                   if (isSelected) {
-                    squareColor = Colors.green.withOpacity(0.8);
+                   squareColor = Colors.green.withValues(alpha: 0.8);
                   }
 
                   String piece = boardState[row][col];
